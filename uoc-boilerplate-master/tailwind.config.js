@@ -4,9 +4,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-
+        primary:  '#CADBC5',
+        masterBrand:  '#4B534B'
       }
-    }
+    },
+    container: {
+      type: 'inline-size',
+    },
   },
   plugins: []
 }
