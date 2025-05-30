@@ -19,6 +19,16 @@
 // @import "@some-company/some-node-module";
 
 /**
+*
+* Importing Tailwind CSS layers
+*/
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/**
  * Import layouts
  * It's a best practice to use a different partial for each page
  */
