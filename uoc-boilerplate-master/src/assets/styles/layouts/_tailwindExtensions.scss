@@ -1,11 +1,16 @@
+/*------------------------------------*\
+  #Tailwind imports and @apply implementations
+\*------------------------------------*/
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 //Buttons
 .btn{
-    @apply bg-strong-green hover:bg-blue-700 text-white font-semibold py-3 px-3 rounded-lg;
+    @apply bg-strong-green hover:bg-green-700 text-white font-semibold py-3 px-3 rounded-lg;
 }
+
 //Speakers cards
 .card-wrapper {
     //Layout
