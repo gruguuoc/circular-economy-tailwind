@@ -19,13 +19,6 @@
 // @import "@some-company/some-node-module";
 
 /**
-* Importing Tailwind CSS layers
-*/
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-/**
 * Importing Google Font Families
 */
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
@@ -41,6 +34,7 @@
  * It's a best practice to use a different partial for each page
  */
 
+@import "layouts/tailwindExtensions"; //Importing Tailwind CSS layers and custom classes where @apply is used
 @import "layouts/home";
 
 /**
