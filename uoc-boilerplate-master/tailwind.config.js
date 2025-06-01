@@ -6,7 +6,9 @@ module.exports = {
       colors: {
         'primary':'#CADBC5',
         'strong-green':'#4B534B',
-        'light-grey':'#ced4da'
+        'strong-green-hoover': '#404740',
+        'light-grey':'#CED4DA',
+        'font-grey':'#303638'
       },
       gap: {
         'rem3':'3rem', 

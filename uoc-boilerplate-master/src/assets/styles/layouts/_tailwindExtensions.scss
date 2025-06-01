@@ -6,9 +6,21 @@
 @tailwind components;
 @tailwind utilities;
 
+
+/*------------------------------------*\
+  #Resets
+\*------------------------------------*/
+.body-reset{
+    @apply bg-primary text-lg mx-0 px-0;
+}
+
+/*------------------------------------*\
+  #Components
+\*------------------------------------*/
+
 //Buttons
 .btn{
-    @apply bg-strong-green hover:bg-green-700 text-white font-semibold py-3 px-3 rounded-lg;
+    @apply bg-strong-green hover:bg-strong-green-hoover text-white sm:font-semibold py-1 px-1 sm:py-3 sm:px-3 rounded-lg;
 }
 
 //Speakers cards
@@ -22,4 +34,9 @@
 
 .card-content {
     @apply @[480px]/card-container:flex @[480px]/card-container:justify-center;
+}
+
+//Badges
+.badge{
+    @apply bg-strong-green text-white rounded-full px-3 py-1 text-base font-bold;
 }
