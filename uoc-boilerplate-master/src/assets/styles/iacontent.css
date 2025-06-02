@@ -1,0 +1,193 @@
+body {
+    margin: 4vh 0 0 0;
+    background-color: white;
+    font-family: Arial, sans-serif;
+    color: black;
+    padding: 0 5vw;
+    font-size: 20px;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  nav a.button {
+    padding: 20px 50px;
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+    font-size: 20px;
+  }
+  
+  .main-title {
+    text-align: center;
+    margin-top: 300px;
+  }
+  
+  .main-title h2 {
+    font-size: 92px;
+    margin-bottom: 10px;
+  }
+  
+  .main-title p {
+    color: gray;
+    font-size: 30px;
+    margin-bottom: 15vh;
+  }
+  
+  .contest-image {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  
+  .contest-image img {
+    width: 100%;
+    max-width: 1674px;
+    height: auto;
+    border-radius: 16px;
+  }
+  
+  .recipes-section {
+    padding-bottom: 50px;
+  }
+  
+  .recipes-section h3 {
+    font-size: 36px;
+    margin-bottom: 5px;
+  }
+  
+  .recipes-section p {
+    color: gray;
+    margin-bottom: 30px;
+    font-size: 22px;
+  }
+  
+  .card-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    flex: 1;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    padding: 24px;
+    border-radius: 8px;
+    min-width: 300px;
+  }
+  
+  .card h4 {
+    margin-top: 0;
+    font-size: 24px;
+  }
+  
+  .card-body {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+  }
+  
+  .avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin-right: 15px;
+    flex-shrink: 0;
+    object-fit: cover;
+    overflow: hidden;
+  }
+  
+  .avatar img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .card-body div {
+    flex-grow: 1;
+  }
+  
+  .card-body div strong {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .card-body div span {
+    color: gray;
+    font-size: 18px;
+  }
+  
+  hr {
+    border: none;
+    border-top: 1px solid lightgray;
+    margin: 50px 0 30px 0;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding-bottom: 40px;
+  }
+  
+  .footer-left h4 {
+    margin-bottom: 10px;
+    font-size: 22px;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 24px;
+    margin-top: 160px;
+  }
+  
+  .social-icons img {
+    width: 36px;
+    height: 36px;
+    border-radius: 18px;
+    filter: grayscale(100%) brightness(0.5);
+    object-fit: contain;
+    background: none;
+    padding: 0;
+  }
+  
+  .footer-right {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(4, auto);
+    gap: 20px 60px;
+    font-size: 18px;
+  }
+  
+  .footer-right div {
+    color: gray;
+  }
+  
+  .footer-right div:nth-child(-n+3) {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
