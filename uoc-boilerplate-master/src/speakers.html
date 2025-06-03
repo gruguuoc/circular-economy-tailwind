@@ -17,95 +17,65 @@
 
       <div class="flex flex-wrap justify-center gap-rem3">
 
-        <div class="card-wrapper">   
-          <div class="card-content">
-            <img src="./assets/images/persona1.jpg" alt="Emily Carter" class="w-full h-auto object-cover" />
-            <div class="p-4">
-              <h2 class="font-medium mb-2 text-center text-2xl">Emily Carter</h2>
-              <p class="mb-4">
-                Emily Carter will discuss the process of redesigning products to be more sustainable. Her talk will cover the key principles of designing for circularity, from using renewable materials to ensuring that products can be easily reused or recycled at the end of their life cycle.
-              </p>
-              <footer class="font-medium opacity-80">
-                Redesigning Products for a Circular Future
-              </footer>
-            </div>
-          </div>
-        </div>
-        
-        <div class="card-wrapper">   
-          <div class="card-content">
-            <img src="./assets/images/persona2.jpg" alt="James Roberts" class="w-full h-auto object-cover" />
-            <div class="p-4">
-              <h2 class="font-medium mb-2 text-center text-2xl">James Roberts</h2>
-              <p class="mb-4">
-                James Roberts will explore innovative technologies that are revolutionizing the way we handle waste. His talk will focus on the latest advancements in recycling, waste-to-resource technologies, and how they are changing industries around the world.
-              </p>
-              <footer class="font-medium opacity-80">
-                Innovating the Circular Economy: Transforming Waste
-              </footer>
-            </div>
-          </div>
-        </div>
-        
-        <div class="card-wrapper">   
-          <div class="card-content">
-            <img src="./assets/images/persona3.jpg" alt="Mark Thompson" class="w-full h-auto object-cover" />
-            <div class="p-4">
-              <h2 class="font-medium mb-2 text-center text-2xl">Mark Thompson</h2>
-              <p class="mb-4">
-                Mark Thompson will discuss the importance of sustainable supply chains in the circular economy. He will share insights on how businesses can redesign their supply chains to minimize waste, increase efficiency, and create a more sustainable future.
-              </p>
-              <footer class="font-medium opacity-80">
-                The Future of Sustainable Supply Chains
-              </footer>
-            </div>
-          </div>
-        </div>
-        
-        <div class="card-wrapper">   
-          <div class="card-content">
-            <img src="./assets/images/persona4.jpg" alt="David Allen" class="w-full h-auto object-cover" />
-            <div class="p-4">
-              <h2 class="font-medium mb-2 text-center text-2xl">David Allen</h2>
-              <p class="mb-4">
-                David Allen will examine how businesses can implement circular economy principles into their business models. He will provide case studies of companies that have successfully adopted circular models, focusing on profitability and environmental impact.
-              </p>
-              <footer class="font-medium opacity-80">
-                Circular Business Models for the Modern Age
-              </footer>
-            </div>
-          </div>
-        </div>
-        
-        <div class="card-wrapper">   
-          <div class="card-content">
-            <img src="./assets/images/persona5.jpg" alt="Sophia Williams" class="w-full h-auto object-cover" />
-            <div class="p-4">
-              <h2 class="font-medium mb-2 text-center text-2xl">Sophia Williams</h2>
-              <p class="mb-4">
-                Sophia Williams will dive into the fashion industry's potential to embrace the circular economy. She will cover sustainable production techniques, the importance of recycling materials, and how brands are starting to shift away from fast fashion.
-              </p>
-              <footer class="font-medium opacity-80">
-                Circular Economy in Fashion: A Sustainable Approach
-              </footer>
-            </div>
-          </div>
-        </div>
-        
-        <div class="card-wrapper">   
-          <div class="card-content">
-            <img src="./assets/images/persona6.jpg" alt="Olivia Martinez" class="w-full h-auto object-cover" />
-            <div class="p-4">
-              <h2 class="font-medium mb-2 text-center text-2xl">Olivia Martinez</h2>
-              <p class="mb-4">
-                Olivia Martinez will focus on the energy sector's transition towards a circular economy. Her talk will explore the challenges and opportunities of moving from a linear model of resource extraction and energy consumption to one that prioritizes regeneration and sustainability.
-              </p>
-              <footer class="font-medium opacity-80">
-                From Linear to Circular: Transitioning the Energy Sector
-              </footer>
-            </div>
-          </div>
-        </div>
+        <include
+          src="./views/card.html"
+          locals='{
+          "img": "./assets/images/persona1.jpg",
+          "name": "Emily Carter",
+          "description": "Emily Carter will discuss the process of redesigning products to be more sustainable. Her talk will cover the key principles of designing for circularity, from using renewable materials to ensuring that products can be easily reused or recycled at the end of their life cycle.",
+          "footerDesc": "Redesigning Products for a Circular Future"
+          }'>
+        </include>
+
+        <include
+          src="./views/card.html"
+          locals='{
+          "img": "./assets/images/persona2.jpg",
+          "name": "James Roberts",
+          "description": "James Roberts will explore innovative technologies that are revolutionizing the way we handle waste. His talk will focus on the latest advancements in recycling, waste-to-resource technologies, and how they are changing industries around the world.",
+          "footerDesc": "Innovating the Circular Economy: Transforming Waste"
+          }'>
+        </include>
+
+        <include
+          src="./views/card.html"
+          locals='{
+          "img": "./assets/images/persona3.jpg",
+          "name": "Mark Thompson",
+          "description": "Mark Thompson will discuss the importance of sustainable supply chains in the circular economy. He will share insights on how businesses can redesign their supply chains to minimize waste, increase efficiency, and create a more sustainable future.",
+          "footerDesc": "The Future of Sustainable Supply Chains"
+          }'>
+        </include>
+
+        <include
+          src="./views/card.html"
+          locals='{
+          "img": "./assets/images/persona4.jpg",
+          "name": "David Allen",
+          "description": "David Allen will examine how businesses can implement circular economy principles into their business models. He will provide case studies of companies that have successfully adopted circular models, focusing on profitability and environmental impact.",
+          "footerDesc": "Circular Business Models for the Modern Age"
+          }'>
+        </include>
+
+        <include
+          src="./views/card.html"
+          locals='{
+          "img": "./assets/images/persona5.jpg",
+          "name": "Sophia Williams",
+          "description": "Sophia Williams will dive into the fashion industrys potential to embrace the circular economy. She will cover sustainable production techniques, the importance of recycling materials, and how brands are starting to shift away from fast fashion.",
+          "footerDesc": "Circular Economy in Fashion: A Sustainable Approach"
+          }'>
+        </include>
+
+        <include
+          src="./views/card.html"
+          locals='{
+          "img": "./assets/images/persona6.jpg",
+          "name": "Olivia Martinez",
+          "description": "Olivia Martinez will focus on the energy sectors transition towards a circular economy. Her talk will explore the challenges and opportunities of moving from a linear model of resource extraction and energy consumption to one that prioritizes regeneration and sustainability.",
+          "footerDesc": "From Linear to Circular: Transitioning the Energy Sector"
+          }'>
+        </include>
       </div>        
     </main>
 
