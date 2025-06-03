@@ -1,8 +1,8 @@
 <header class="absolute top-0 left-0 w-full px-12 py-2 flex justify-between items-center h-[120px] z-[100]">
     <img class="h-20" src="./assets/images/economia-circular.png" alt="Logo that represents circular economy" />
     <nav class="block md:flex md:gap-1">
-        <a href="speakers.html" class="btn" role="button" aria-disabled="true">Speakers</a>
-        <a href="article.html" class="btn" role="button" aria-disabled="true">Article</a>
-        <a href="#" class="btn" role="button" aria-disabled="true">Dashboard</a>
+        <include src="./views/button.html" locals='{"href": "speakers.html","name": "Speakers"}'></include>
+        <include src="./views/button.html" locals='{"href": "article.html","name": "Article"}'></include>
+        <include src="./views/button.html" locals='{"href": "#","name": "Dashboard"}'></include>
     </nav>
 </header>
