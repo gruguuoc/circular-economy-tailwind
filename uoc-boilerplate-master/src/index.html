@@ -7,12 +7,20 @@
     <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
     <title>UOC Boilerplate</title>
   </head>
-  <body>
-    <ul>
-      <a href="speakers.html" class="btn btn-primary" role="button" aria-disabled="true">Speakers</a>
-      <a href="article.html" class="btn btn-primary" role="button" aria-disabled="true">Article</a>
-      <a href="iacontent.html" class="btn btn-primary" role="button" aria-disabled="true">Contenido generado con IA</a>
+  <body class="body-reset h-screen flex flex-col items-center justify-center bg-gray-100">
+    <h1 class="text-3xl font-bold mb-8">PEC 3 - Content</h1>
+    <ul class="flex flex-col gap-9 items-center justify-center">
+      <li>
+        <include src="./views/button.html" locals='{"href": "speakers.html","name": "Speakers"}'></include>
+      </li>
+      <li>
+        <include src="./views/button.html" locals='{"href": "article.html","name": "Article"}'></include>
+      </li>
+      <li>
+        <include src="./views/button.html" locals='{"href": "iacontent.html","name": "Contenido generado con IA"}'></include>
+      </li>
     </ul>
     <script type="module" src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
   </body>
+  
 </html>
